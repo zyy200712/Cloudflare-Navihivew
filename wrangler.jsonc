@@ -4,7 +4,7 @@
  */
 {
     "$schema": "node_modules/wrangler/config-schema.json",
-    "name": "navihive",
+    "name": "Cloudflare-Navihivew",
     "main": "worker/index.ts",
     "compatibility_date": "2025-04-05",
     "assets": {
@@ -17,14 +17,14 @@
     "d1_databases": [
         {
             "binding": "DB",
-            "database_name": "navigation-db-local",
+            "database_name": "navigation-db",
             "database_id": "43ff28e1-42d6-4e53-9657-0702ae1353b6"
         }
     ],
     "vars": {
         "AUTH_ENABLED": "true",
-        "AUTH_USERNAME": "linuxdo",
-        "AUTH_PASSWORD": "linuxdo",
-        "AUTH_SECRET": "linuxdo"
+        "AUTH_USERNAME": "zcr",
+        "AUTH_PASSWORD": "zbb",
+        "AUTH_SECRET": "linuxdolinuxdolinuxdo"
     }
 }
